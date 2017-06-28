@@ -36,18 +36,18 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function() {
     var controller = new YTV('youtube-playlist', {
-       user: 'taperunsout',
+       //user: 'taperunsout',
        accent: '#337ab7',
        responsive: true,
-       //playlist: 'PLHXSlw-3LVRHLBooP0_o94vUkYvnAVAl1'
+       playlist: 'PLjZN_n5TZFcxOHUG3TTDbAe4Z_Qz6SuTw'
     });
 });
 
 $(function(){
     $(document).scroll(function(){
-        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() * 1.1) + 'px'});
+        $("#intro").css({'background-position': '0px ' + Math.max(0 - $('body').scrollTop() * 1.1, -600) + 'px'});
     });
     $('body').bind('touchmove', function(e) {
-        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() * 1.1) + 'px'});
+        $("#intro").css({'background-position': '0px ' + Math.max(0 - $('body').scrollTop() * 1.1, -600) + 'px'});
     });
 })
