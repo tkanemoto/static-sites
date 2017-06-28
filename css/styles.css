@@ -7,6 +7,44 @@
   height: 400px;
 }
 
+.about-section .item-inner {
+  padding: 20px 0px;
+}
+.about-section .member-name {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-transform: none;
+  font-family: Montserrat, sans-serif;
+}
+.about-section .member-desc {
+  color: #4f545e;
+}
+.about-section .member-profile {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.about-section .member-profile img {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  max-width: 200px;
+}
+.about-section .member-label {
+  display: inline-block;
+  width: 80%;
+  padding: 5px 10px;
+  background: #101113;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
 .gigs-section .section-title {
   padding-top: 20px;
 }
