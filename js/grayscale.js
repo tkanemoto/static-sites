@@ -45,7 +45,9 @@ $(function() {
 
 $(function(){
     $(document).scroll(function(){
-        console.log($('body').scrollTop());
-        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() / 2) + 'px'});
+        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() * 1.1) + 'px'});
+    });
+    $('body').bind('touchmove', function(e) {
+        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() * 1.1) + 'px'});
     });
 })
