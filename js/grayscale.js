@@ -45,6 +45,6 @@ $(function() {
 
 $(function(){
     $(document).scroll(function(){
-        $("#intro").css({'background-position': '0px ' + Math.max(0 - $('body').scrollTop() * 1.1, -600) + 'px'});
+        $("#intro").css({'background-position': '0px ' + Math.min(0 + $('body').scrollTop() * 0.25, 600) + 'px'});
     });
 })
