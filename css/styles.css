@@ -74,13 +74,12 @@
 .gigs-section .date-label .month {
   font-size: 11px;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 .gigs-section .date-label .year {
   font-size: 11px;
   font-weight: 300;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
 .gigs-section .gig-title {
@@ -163,6 +162,10 @@
 }
 .updates-block .media-thumb {
   position: relative;
+}
+.updates-block .media-thumb img {
+  max-height: 100px;
+  max-width: 170px;
 }
 .updates-block .video-play-trigger {
   position: absolute;
