@@ -42,3 +42,10 @@ $(function() {
        //playlist: 'PLHXSlw-3LVRHLBooP0_o94vUkYvnAVAl1'
     });
 });
+
+$(function(){
+    $(document).scroll(function(){
+        console.log($('body').scrollTop());
+        $("#intro").css({'background-position': '0px ' + (0 - $('body').scrollTop() / 2) + 'px'});
+    });
+})
