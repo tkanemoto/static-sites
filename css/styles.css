@@ -13,9 +13,10 @@
 .about-section .member-name {
   font-size: 16px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   text-transform: none;
   font-family: Montserrat, sans-serif;
+  min-height: 40px;
 }
 .about-section .member-desc {
   color: #4f545e;
