@@ -33,3 +33,12 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   }
 });
+
+$(function() {
+    var controller = new YTV('youtube-playlist', {
+       user: 'taperunsout',
+       accent: '#337ab7',
+       responsive: true,
+       //playlist: 'PLHXSlw-3LVRHLBooP0_o94vUkYvnAVAl1'
+    });
+});
