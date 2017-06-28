@@ -31,12 +31,13 @@
   margin-right: auto;
   display: inline-block;
   max-width: 200px;
+  width: 100%;
 }
 .about-section .member-label {
   display: inline-block;
   width: 80%;
   padding: 5px 10px;
-  background: #101113;
+  background: #202224;
   color: #fff;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
@@ -53,15 +54,15 @@
   padding-left: 60px;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #101113;
+  border-bottom: 1px solid #202224;
 }
 .gigs-section .date-label {
-  background: #101113;
+  background: #202224;
   color: #fff;
   text-align: center;
   display: inline-block;
   width: 45px;
-  height: 62px;
+  height: 60px;
   padding-top: 4px;
   position: absolute;
   left: 0;
