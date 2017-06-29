@@ -49,7 +49,7 @@ $(function(){
         var top = $('body').scrollTop();
         slidies.each(function(index, element) {
             var $this = $(element)
-            $this.css({'background-position': 'center ' + Math.min(-($this.offset().top - top) * 0.5, 600) + 'px'});
+            $this.css({'backgroundPositionY': Math.min(-($this.offset().top - top) * 0.5, 600) + 'px'});
         });
     });
 })
