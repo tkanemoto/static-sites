@@ -44,7 +44,12 @@ $(function() {
 });
 
 $(function(){
+    var slidies = $(".slidie-slide");
     $(document).scroll(function(){
-        $("#intro").css({'background-position': '0px ' + Math.min(0 + $('body').scrollTop() * 0.25, 600) + 'px'});
+        var top = $('body').scrollTop();
+        slidies.each(function(index, element) {
+            var $this = $(element)
+            $this.css({'background-position': 'center ' + Math.min(-($this.offset().top - top) * 0.25, 600) + 'px'});
+        });
     });
 })

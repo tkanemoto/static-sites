@@ -1,5 +1,5 @@
-.media-section {
-  max-width: 840px;
+.navbar-brand img {
+  width: 140px;
 }
 @media (min-width: 768px)
 .ytv-canvas {
@@ -232,7 +232,7 @@
 }
 .updates-block .carousel-content {
   padding-left: 200px;
-  max-width: 760px;
+  max-width: 720px;
   font-size: 12px;
 }
 .updates-block .carousel-content.no-media-holder {
@@ -243,7 +243,7 @@
   margin-bottom: 15px;
 }
 .updates-block .carousel-content .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 5px;
