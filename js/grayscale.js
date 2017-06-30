@@ -45,8 +45,9 @@ $(function() {
 
 $(function(){
     var slidies = $(".slidie-slide");
+    var $body = $('body');
     $(document).scroll(function(){
-        var top = $('body').scrollTop();
+        var top = $body.scrollTop();
         slidies.each(function(index, element) {
             var $this = $(element)
             $this.css({'backgroundPositionY': Math.min(-($this.offset().top - top) * 0.5, 600) + 'px'});
