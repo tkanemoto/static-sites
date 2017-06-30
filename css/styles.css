@@ -297,6 +297,12 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
+  .contact-section .social-media-list li {
+    margin-bottom: 15px;
+  }
+  .contact-section .social-media-list .fa {
+    font-size: 24px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -335,4 +341,122 @@
   }
 }
 
+.contact-section {
+  background: #101113;
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact-section a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact-section a:hover {
+  color: #337ab7;
+}
+.contact-section .section-title {
+  margin-bottom: 30px;
+  color: #fff;
+}
+.contact-section .section-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+.contact-section .contact-block {
+  max-width: 800px;
+  margin-bottom: 90px;
+}
+.contact-section .contact-block .item {
+  margin-bottom: 30px;
+}
+.contact-section .contact-block .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.contact-section .contact-block .icon-holder {
+  margin-bottom: 15px;
+}
+.contact-section .contact-block .fa {
+  margin-right: 5px;
+  color: #337ab7;
+  font-size: 24px;
+}
+.contact-section .channels-list {
+  margin-bottom: 45px;
+}
+.contact-section .channels-list li {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.contact-section .channels-list li:last-child {
+  margin-right: 0;
+}
+.contact-section .channels-list a {
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+}
+.contact-section .channels-list a:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.contact-section .social-media-list {
+  margin-bottom: 100px;
+}
+.contact-section .social-media-list a {
+  color: rgba(255, 255, 255, 0.4);
+}
+.contact-section .social-media-list a:hover {
+  color: #fff;
+}
+.contact-section .social-media-list li {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.contact-section .social-media-list li:last-child {
+  margin-right: 0;
+}
+.contact-section .social-media-list .fa {
+  font-size: 36px;
+}
 
+.social-block {
+  padding-top: 90px;
+}
+.social-block .instagram-block {
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+.social-block .instagram-block .title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.social-block .instafeed-wrapper {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.social-block .instagram-item {
+  display: inline-block;
+  padding: 0;
+  background: #101113;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+  position: relative;
+}
+.social-block .instagram-item:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  z-index: 10;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
